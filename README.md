@@ -44,7 +44,9 @@ then cd aggregation
 uvicorn aggregate_insights:app --reload --port 9000 #to run the aggregate layer
 
 for running the web app ui create open another cmd make sure initially you are in the repository directory health-metrics-ai-dashboard
-then follow previous step to activate the env and cd to aggregation and then hit the command streamlit run dashboard.py 
+then follow previous step to activate the env and cd to aggregation and then hit the command 
+
+streamlit run dashboard.py 
 
 #see in the video.
 
